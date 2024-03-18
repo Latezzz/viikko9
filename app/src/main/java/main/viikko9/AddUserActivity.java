@@ -46,16 +46,16 @@ public class AddUserActivity extends AppCompatActivity {
 
         int id = studyProgram.getCheckedRadioButtonId();
         if (id == R.id.seRadioButton) {
-            program = "Software engineering";
+            program = "Software Engineering";
         }
         else if (id == R.id.imRadioButton) {
-            program = "Industrial engineering";
+            program = "Industrial Engineering";
         }
         else if (id == R.id.ceRadioButton) {
-            program = "Computational engineering";
+            program = "Computational Engineering";
         }
         else if (id == R.id.eeRadioButton) {
-            program = "Electrical engineering";
+            program = "Electrical Engineering";
         }
         else {
             program = "";
